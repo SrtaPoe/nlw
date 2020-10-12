@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    height:100vh;
+    color: white;
+}
+
+:root{
+    font-size: 16px;
+}
+
+body, input, button, textarea {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-size: 1em;
+}
+
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+    min-height: 100vh;
+    text-align: center;
+
+}

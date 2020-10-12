@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    height:100vh;
+    color: white;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#page-landing {
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
+    min-height: 100vh;
+    text-align: center;
+    display:flex;
+}
+
+#container {
+    margin: auto;
+    width: 90%;
+}
+
+.location, h1, .visit p {
+    height: 16vh;
+}
+
+.visit a {
+    width:8rem;
+    height:8rem;
+    background:#ffd666;
+    border: none;
+    border-radius: 3rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+

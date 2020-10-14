@@ -53,11 +53,6 @@ s
 /* desktop version*/
 
 @media (min-width: 760px) {
-    #container {
-        /*shorthard background: image repeat position */
-        padding: 5rem 2rem;
-        background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
-    }
     header {
         display: flex;
         align-items:center;
@@ -70,9 +65,9 @@ s
     .location {
         text-align:right;
         font-size: 2.4rem;
-        line-height: 1.5;
+        line-right: 1.5rem;
     }
-
+    
     main h1 {
         font-size: clamp(4rem, 8vw, 8.4rem);
         font-weight: bold;
@@ -81,19 +76,9 @@ s
         width: min(300px, 80%)
     }
 
-    .visit {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     .visit p {
         font-size: 2.4rem;
         line-height:1.5;
         width: clamp(20rem, 20vw, 30rem);
-    }
-
-    .visit a {
-        margin: initial;
     }
 }

@@ -40,5 +40,4 @@
 .animat-appear {
     animation-name: appear;
     animation-duration: 300ms;
-    animation-fill-mode: backwards;
 }

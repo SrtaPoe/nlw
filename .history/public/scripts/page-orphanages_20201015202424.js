@@ -3,6 +3,10 @@ const map = L.map('mapid').setView([-2.5387188,-44.2672987], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 
+L.marker([-2.5387188,-44.2672987]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .openPopup();
+
 //criando ícone //
 const icon = L.icon({
     iconUrl:"/../public/images/map-marker.svg",
@@ -16,10 +20,4 @@ const popup = L.popup({
     className: 'map-popup',
     minWidth: 240,
     minHeight: 240 
-}).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img scr=".public/images/arrow-white.svg" ></a>')
-
-
-L.marker([-2.5387188,-44.2672987], { icon })
-    .addTo(map)
-    .bindPopup(popup)
-   
+}).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img scr=".public/images/arrow-white.svg" > </a>)

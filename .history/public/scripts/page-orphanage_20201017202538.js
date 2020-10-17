@@ -29,7 +29,7 @@ function selectImage() {
     console.log(button.children)
 
 
-    const buttons =  document.querySelectorAll(".images button")
+    const buttons =  document.querySelectorAll(".image button")
     buttons.forEach(removeActiveClass)
 
 

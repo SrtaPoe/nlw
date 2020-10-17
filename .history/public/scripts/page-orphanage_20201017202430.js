@@ -29,12 +29,12 @@ function selectImage() {
     console.log(button.children)
 
 
-    const buttons =  document.querySelectorAll(".images button")
+    const buttons =  document.querySelectorAll(".image button")
     buttons.forEach(removeActiveClass)
 
 
     function removeActiveClass(button) {
-        button.classList.remove("active")
+
     }
 
     const image = button.children[0]

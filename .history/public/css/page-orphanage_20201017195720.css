@@ -78,6 +78,8 @@ main {
     opacity: 1;
 }
 
+
+
 .images button img {
     width: 100%;
     height:8.8rem;
@@ -158,10 +160,10 @@ main {
     margin-bottom: 2rem;
 }
 
-.open-details .hour {
-    background: linear-gradient(149.97de, #E6F7FB 8.13%, #FFFFFF 92.67%);
-    border:1px solid #B3DAE2;
-    border-radius:20px;
+.open-details hour {
+    background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%)
+    border: 1px solid #B3DAE2;
+    border-radius: 20px;
     color: #5c8599;
 }
 
